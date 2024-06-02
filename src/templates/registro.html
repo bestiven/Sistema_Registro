@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Sistema de Gestión de Aspirantes</h1>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <a href="{{ url_for('registrar') }}" class="btn btn-primary btn-lg btn-block">Registrar Aspirante</a>
+            </div>
+            <div class="col-md-6">
+                <a href="{{ url_for('index') }}" class="btn btn-secondary btn-lg btn-block">Administrar Aspirantes</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
